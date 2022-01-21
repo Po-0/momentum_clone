@@ -1,4 +1,7 @@
-const a = 5;
-const myName = "JY";
+const title = document.querySelector("div.title h1");
 
-console.log()
+function handleTitleClick () {
+    
+}
+
+title.addEventListener("click", handleTitleClick);
