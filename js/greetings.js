@@ -11,7 +11,6 @@ function onSubmit(event){
     localStorage.setItem(USERNAME_KEY, username);
     loginForm.classList.add(HIIDDEN_CLASSNAME);
     painGreetings(username);
-
 }
 
 function painGreetings(username){
